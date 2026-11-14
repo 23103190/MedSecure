@@ -111,7 +111,7 @@ export default function Landing() {
             variants={heroTextVariant}
             className="hero-title"
           >
-            MediChain
+            MedSecure
             <span className="subtitle">Blockchain-Enabled Healthcare Ecosystem</span>
           </motion.h1>
           
@@ -147,7 +147,7 @@ export default function Landing() {
         <div className="container">
           <h2>How It Works</h2>
           <p className="overview-intro">
-            MediChain revolutionizes healthcare management by connecting patients, doctors, and pharmacies 
+            MedSecure revolutionizes healthcare management by connecting patients, doctors, and pharmacies 
             through cutting-edge blockchain and AI technology.
           </p>
           <motion.div 
@@ -452,18 +452,18 @@ export default function Landing() {
       <footer className="footer">
         <div className="footer-cta-section">
           <div className="container">
-            <h2>Discover how MediChain transforms healthcare management</h2>
-            <p>See how MediChain helps decision-makers work faster, stay organised, and deliver fair, informed outcomes — without changing your existing systems.</p>
+            <h2>Discover how MedSecure transforms healthcare management</h2>
+            <p>See how MedSecure helps decision-makers work faster, stay organised, and deliver fair, informed outcomes — without changing your existing systems.</p>
             <button className="btn cta-button" onClick={handleGetStarted}>Get Started</button>
           </div>
-          <div className="footer-watermark">medichain</div>
+          <div className="footer-watermark">MedSecure</div>
         </div>
         
         <div className="footer-bottom">
           <div className="container">
             <div className="footer-content">
               <div className="footer-left">
-                <p> {new Date().getFullYear()} MediChain. All rights reserved.</p>
+                <p> {new Date().getFullYear()} MedSecure. All rights reserved.</p>
               </div>
               <nav className="footer-nav">
                 <a href="#overview">Features</a>
@@ -474,7 +474,7 @@ export default function Landing() {
                 <a href="#overview">About</a>
               </nav>
               <div className="footer-right">
-                <a href="mailto:info@medichain.technology">info@medichain.technology</a>
+                <a href="mailto:info@MedSecure.technology">info@MedSecure.technology</a>
               </div>
             </div>
           </div>
@@ -490,7 +490,7 @@ export default function Landing() {
               <button className="modal-close" onClick={closeModal}>×</button>
             </div>
             <div className="modal-body">
-              <p>Select how you'd like to use MediChain:</p>
+              <p>Select how you'd like to use MedSecure:</p>
               <div className="role-options">
                 <button 
                   className="role-option"

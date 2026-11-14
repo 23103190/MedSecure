@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import logo from '../../assets/medichain-logo.png';
+import logo from '../../assets/MediChain-logo.png';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 export default function DashboardLayout({
-  brand = 'MediChain',
+  brand = 'MedSecure',
   sidebarItems = [],
   activeKey,
   onChange,
@@ -33,8 +33,8 @@ export default function DashboardLayout({
     <div className="doctor-dashboard">
       <nav className="topbar">
         <div className="brand" style={{display:'flex',alignItems:'center',gap:'0.5rem'}}>
-          <img src={logo} alt="MediChain logo" style={{height:30,width:'auto'}} />
-          <span>MediChain</span>
+          <img src={logo} alt="MedSecure logo" style={{height:30,width:'auto'}} />
+          <span>MedSecure</span>
         </div>
         <div className="profile" onClick={() => setOpen(o => !o)}>
           <div className="avatar" aria-label="Profile" />

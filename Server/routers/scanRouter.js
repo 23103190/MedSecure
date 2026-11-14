@@ -71,7 +71,7 @@ router.get('/resolve', async (req, res) => {
 
     const code = deriveCodeFromUrl(u);
 
-    const r = await fetch(u, { headers: { 'user-agent': 'Mozilla/5.0 MediChainBot' } });
+    const r = await fetch(u, { headers: { 'user-agent': 'Mozilla/5.0 MedSecureBot' } });
     if (!r.ok) return res.status(502).json({ error: 'Failed to fetch target' });
     const html = await r.text();
 

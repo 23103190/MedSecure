@@ -190,7 +190,7 @@ export default function NearbyPharmacy() {
 
   return (
     <DashboardLayout
-      brand="MediChain"
+      brand="MedSecure"
       sidebarItems={sidebarItems}
       activeKey={activeKey}
       onChange={handleSidebarChange}

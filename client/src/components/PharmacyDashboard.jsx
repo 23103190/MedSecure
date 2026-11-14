@@ -26,7 +26,7 @@ export default function PharmacyDashboard() {
 
   const pharmacyId = session?.user?.id || session?.user?._id || session?.pharmacyId || session?.pharmacyID || session?.pharmacy_id;
   const pharmacyInfo = {
-    name: session?.user?.profile?.shopName || session?.user?.profile?.name || 'MediChain Pharmacy',
+    name: session?.user?.profile?.shopName || session?.user?.profile?.name || 'MedSecure Pharmacy',
     address: session?.user?.profile?.address || '',
     phone: session?.user?.profile?.phone || '',
     email: session?.user?.email || '',
@@ -109,7 +109,7 @@ export default function PharmacyDashboard() {
 
   return (
     <div className="pharmacy-dashboard">
-      <DashboardLayout brand="MediChain Pharmacy" menuItems={menuItems} active={active} setActive={setActive}>
+      <DashboardLayout brand="MedSecure Pharmacy" menuItems={menuItems} active={active} setActive={setActive}>
         {loading && (
           <div className="pharmacy-section">
             <div style={{ padding: '1rem', color: '#64748b' }}>Loading…</div>

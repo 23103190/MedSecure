@@ -46,7 +46,7 @@ app.use("/api/doctor", doctorRouter);
 app.use("/uploads", express.static("uploads"));
 // Root endpoint
 app.get("/", (req, res) => {
-  res.send(" MediChain backend running successfully!");
+  res.send(" MedSecure backend running successfully!");
 });
 
 // Start server

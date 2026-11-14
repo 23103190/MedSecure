@@ -13,7 +13,7 @@ export const reverseGeocode = async (req, res) => {
     )}&lon=${encodeURIComponent(lng)}&zoom=19&addressdetails=1`;
 
     const response = await fetch(url, {
-      headers: { "User-Agent": "MediChainApp/1.0" },
+      headers: { "User-Agent": "MedSecureApp/1.0" },
     });
     const data = await response.json();
 
@@ -47,7 +47,7 @@ export const detectLocation = async (req, res) => {
     // optional override with query ip; otherwise rely on external service auto-detect
     const ipParam = req.query.ip;
     const ipUrl = ipParam ? `https://ipapi.co/${encodeURIComponent(ipParam)}/json/` : "https://ipapi.co/json/";
-    const ipRes = await fetch(ipUrl, { headers: { "User-Agent": "MediChainApp/1.0" } });
+    const ipRes = await fetch(ipUrl, { headers: { "User-Agent": "MedSecureApp/1.0" } });
     if (!ipRes.ok) return res.status(502).json({ error: "IP lookup failed" });
     const ipData = await ipRes.json();
     const lat = parseFloat(ipData.latitude);
@@ -56,7 +56,7 @@ export const detectLocation = async (req, res) => {
 
     // Reverse geocode to normalize payload
     const nomUrl = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lng)}&zoom=19&addressdetails=1`;
-    const nomRes = await fetch(nomUrl, { headers: { "User-Agent": "MediChainApp/1.0" } });
+    const nomRes = await fetch(nomUrl, { headers: { "User-Agent": "MedSecureApp/1.0" } });
     if (!nomRes.ok) return res.status(502).json({ error: "Reverse geocode failed" });
     const nomData = await nomRes.json();
 

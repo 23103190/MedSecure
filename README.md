@@ -1,10 +1,10 @@
-#  MediChain — Blockchain-Enabled Healthcare Ecosystem
+#  MedSecure — Blockchain-Enabled Healthcare Ecosystem
 
 A secure, AI-powered, and blockchain-backed web application connecting patients, doctors, and pharmacies through verified prescriptions, intelligent health insights, and real-time medicine discovery.
 
 ##  Overview
 
-MediChain is a decentralized healthcare management platform that securely connects patients, doctors, and pharmacies within a unified, transparent ecosystem. It leverages blockchain technology for tamper-proof prescription storage and generative AI for intelligent symptom classification and doctor recommendations.
+MedSecure is a decentralized healthcare management platform that securely connects patients, doctors, and pharmacies within a unified, transparent ecosystem. It leverages blockchain technology for tamper-proof prescription storage and generative AI for intelligent symptom classification and doctor recommendations.
 
 The system aims to eliminate prescription fraud, simplify medicine discovery, and promote interoperable, verifiable, and patient-centric healthcare data management.
 

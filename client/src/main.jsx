@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './styles/global.scss'
 import 'leaflet/dist/leaflet.css'
-import logoUrl from './assets/medichain-logo.png'
+import logoUrl from "./assets/MediChain-logo.png";
 
 // Set favicon from src assets (works in Vite via asset import)
 (() => {

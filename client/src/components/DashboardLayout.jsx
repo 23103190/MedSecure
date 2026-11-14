@@ -1,10 +1,10 @@
 import React, { useState, useMemo } from 'react'
 import '../styles/doctor-dashboard.scss'
 import { FaPills, FaCalendarAlt, FaClipboardList } from 'react-icons/fa'
-import logo from '../assets/medichain-logo.png'
+import logo from '../assets/MediChain-logo.png'
 import { useNavigate, useLocation } from 'react-router-dom'
 
-export default function DashboardLayout({ brand = 'MediChain', menuItems = [], active, setActive, children }) {
+export default function DashboardLayout({ brand = 'MedSecure', menuItems = [], active, setActive, children }) {
   const [collapsed, setCollapsed] = useState(() => {
     try {
       return localStorage.getItem('dashboardCollapsed') === 'true'
@@ -79,8 +79,8 @@ export default function DashboardLayout({ brand = 'MediChain', menuItems = [], a
             <span />
           </button>
           <div className="brand" style={{display:'flex',alignItems:'center',gap:'0.5rem'}}>
-            <img src={logo} alt="MediChain logo" style={{height:30,width:'auto'}} />
-            <span>MediChain</span>
+            <img src={logo} alt="MedSecure logo" style={{height:30,width:'auto'}} />
+            <span>MedSecure</span>
           </div>
         </div>
 

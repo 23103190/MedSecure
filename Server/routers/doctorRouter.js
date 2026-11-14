@@ -180,7 +180,7 @@ router.get('/verify-ima', async (req, res) => {
     const fetchOptions = {
       headers: {
         'Accept': 'application/json',
-        'User-Agent': 'MediChain/1.0'
+        'User-Agent': 'MedSecure/1.0'
       }
     };
 

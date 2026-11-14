@@ -28,7 +28,7 @@ export const generateBillPDF = (billData, pharmacyInfo = {}) => {
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(28);
   doc.setFont('helvetica', 'bold');
-  doc.text('MediChain Pharmacy', margin, 25);
+  doc.text('MedSecure Pharmacy', margin, 25);
   
   doc.setFontSize(10);
   doc.setFont('helvetica', 'normal');
@@ -158,7 +158,7 @@ export const generateBillPDF = (billData, pharmacyInfo = {}) => {
   doc.setFont('helvetica', 'italic');
   doc.setTextColor(100, 116, 139);
   doc.text('Thank you for choosing our pharmacy!', pageWidth / 2, footerY, { align: 'center' });
-  doc.text('For any queries, please contact us at: support@medichain.com', pageWidth / 2, footerY + 5, { align: 'center' });
+  doc.text('For any queries, please contact us at: support@MedSecure.com', pageWidth / 2, footerY + 5, { align: 'center' });
   
   // Barcode/QR placeholder
   doc.setFontSize(8);
