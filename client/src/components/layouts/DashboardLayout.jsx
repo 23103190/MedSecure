@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import logo from '../../assets/MediChain-logo.png';
+import logo from '../../assets/medichain-logo.png';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 export default function DashboardLayout({

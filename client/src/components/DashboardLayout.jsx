@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react'
 import '../styles/doctor-dashboard.scss'
 import { FaPills, FaCalendarAlt, FaClipboardList } from 'react-icons/fa'
-import logo from '../assets/MediChain-logo.png'
+import logo from '../assets/medichain-logo.png'
 import { useNavigate, useLocation } from 'react-router-dom'
 
 export default function DashboardLayout({ brand = 'MedSecure', menuItems = [], active, setActive, children }) {

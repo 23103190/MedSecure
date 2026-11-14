@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, Link, useNavigate } from 'react-router-dom'
-import logo from '../assets/MediChain-logo.png'
+import logo from '../assets/medichain-logo.png'
 import { FaUserMd, FaUser, FaClinicMedical } from 'react-icons/fa'
 
 export default function NavBar() {
